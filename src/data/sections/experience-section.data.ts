@@ -1,19 +1,25 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
+
 import {
-  chakraUi,
-  eslint,
-  firebase,
-  nextJs,
-  nx,
-  pnpm,
-  react,
-  reactQuery,
-  tailwindCss,
   typescript,
-  vue,
+  kubernetes,
+  terraform,
+  angular,
+  cypress,
+  android,
+  scratch,
+  docker,
+  dotnet,
+  webRTC,
+  twilio,
+  react,
+  azure,
+  lit,
+  aws,
+  nx,
 } from '../helpers/skills';
+import { website } from '../helpers/links';
 
 const experienceSectionData = {
   config: {
@@ -24,59 +30,77 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      image: import('@/assets/logos/google-logo.jpg'),
-      dates: [new Date('2020-02'), null],
+      role: 'Senior frontend developer',
+      company: 'Wefox',
+      image: import('@/assets/logos/wefox-logo.jpg'),
+      dates: [new Date('2021-07'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        In my current position, I built a modern and responsive platform to enable Wefox brokers to provide a better experience for their customers. This role involved several challenges, including creating dynamic journeys to achieve flexibility in the product creation process and developing and integrating web components to maintain a consistent style across all company applications. Im working with angular as a main framework, and with lit for web components.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [angular(), nx(), lit(), typescript(), cypress()],
       },
-      links: [facebook({ url: '#' }), linkedin({ url: '#' })],
+      links: [website({ url: 'https://wefox.com' })],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
-      image: import('@/assets/logos/facebook-logo.png'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      role: 'Fullstack developer',
+      company: 'UruIT',
+      image: import('@/assets/logos/uruit-logo.jpg'),
+      dates: [new Date('2018-06'), new Date('2020-02')],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
+        At UruIT, I gained valuable experience working on projects for high-profile clients such as Telefónica and Bloomberg Tax. I utilized my expertise in React, Angular, .NET, and .NET Core to contribute effectively to these projects. Additionally, I expanded my skillset by working with cloud technologies like Kubernetes, Helm, and Terraform, further enhancing my ability to deliver robust and scalable solutions.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), reactQuery(), chakraUi(), eslint()],
+        tags: [dotnet(), react(), angular(), docker(), kubernetes(), terraform(), aws()],
       },
-      links: [website({ url: '#' }), instagram({ url: '#' })],
+      links: [website({ url: 'https://uruit.com/' })],
     },
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
-      image: import('@/assets/logos/gitlab-logo.png'),
-      dates: [new Date('2016-09'), new Date('2019-04')],
+      role: 'Full-stack developer',
+      company: 'PhoneIQ',
+      image: import('@/assets/logos/phoneiq-logo.jpg'),
+      dates: [new Date('2017-03'), new Date('2018-06')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+        At PhoneIQ, a unified communications startup, I leveraged my expertise in .Net,
+        MSSQL, and Knockout to develop and integrate features for their platform. I also
+        skillfully integrated the platform with external services like PubNub, Twilio,
+        Salesforce, and Kazoo.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [dotnet(), webRTC(), twilio(), azure()],
       },
-      links: [twitter({ url: '#' }), github({ url: '#' })],
+      links: [website({ url: 'https://www.phoneiq.co/' })],
+    },
+    {
+      role: '.NET developer',
+      company: 'HRU',
+      image: import('@/assets/logos/hru-logo.jpg'),
+      dates: [new Date('2013-07'), new Date('2017-03')],
+      description: `
+        In my first role as a developer, I worked on developing and maintaining applications for the Maroñas Racecourse and casino rooms in Uruguay. This role provided a great learning experience as we handled the entire development cycle, from design to deployment. I primarily worked with .NET MVC, but I also developed a native Android application using Java.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [dotnet(), android()],
+      },
+      links: [website({ url: 'https://www.hru.com.uy/' })],
+    },
+    {
+      role: 'Teaching Assistant Professor',
+      company: 'ORT',
+      image: import('@/assets/logos/ort-logo.jpg'),
+      dates: [new Date('2011-04'), new Date('2012-12')],
+      description: `
+       In my first professional role, I served as an assistant instructor of programming and robotics for teachers across Uruguay under the Ceibal Program. We used Scratch for programming and Lego NXT as the programmable device. It was a very enjoyable and rewarding experience.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [scratch()],
+      },
+      links: [website({ url: 'https://www.ort.edu.uy/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;

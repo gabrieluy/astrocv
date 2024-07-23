@@ -32,6 +32,34 @@ export const astro = createSkillFactory({
   url: 'https://astro.build/',
 });
 
+export const docker = createSkillFactory({
+  name: 'Docker',
+  icon: 'simple-icons:docker',
+  iconColor: '#2496ED',
+  url: 'https://www.docker.com/',
+});
+
+export const kubernetes = createSkillFactory({
+  name: 'Kubernetes',
+  icon: 'simple-icons:kubernetes',
+  iconColor: '#326CE5',
+  url: 'https://kubernetes.io/',
+});
+
+export const terraform = createSkillFactory({
+  name: 'Terraform',
+  icon: 'simple-icons:terraform',
+  iconColor: '#623CE4',
+  url: 'https://www.terraform.io/',
+});
+
+export const svelte = createSkillFactory({
+  name: 'Svelte',
+  icon: 'simple-icons:svelte',
+  iconColor: '#FF3E00',
+  url: 'https://svelte.dev/',
+});
+
 export const chakraUi = createSkillFactory({
   name: 'Chakra UI',
   icon: 'simple-icons:chakraui',
@@ -121,6 +149,90 @@ export const react = createSkillFactory({
   icon: 'simple-icons:react',
   iconColor: '#61DAFB',
   url: 'https://reactjs.org/',
+});
+
+export const angular = createSkillFactory({
+  name: 'Angular',
+  icon: 'simple-icons:angular',
+  iconColor: '#DD0031',
+  url: 'https://angular.dev/',
+});
+
+export const dotnet = createSkillFactory({
+  name: '.NET',
+  icon: 'simple-icons:dotnet',
+  iconColor: '#E5E7EB',
+  url: 'https://dotnet.microsoft.com/',
+});
+
+export const scratch = createSkillFactory({
+  name: 'Scratch',
+  icon: 'simple-icons:scratch',
+  iconColor: '#F8AA36',
+  url: 'https://scratch.mit.edu/',
+});
+
+export const aws = createSkillFactory({
+  name: 'AWS',
+  icon: 'simple-icons:amazonaws',
+  iconColor: '#FF9900',
+  url: 'https://aws.amazon.com/',
+});
+
+export const azure = createSkillFactory({
+  name: 'Azure',
+  icon: 'simple-icons:microsoftazure',
+  iconColor: '#0072C6',
+  url: 'https://azure.microsoft.com/',
+});
+
+export const android = createSkillFactory({
+  name: 'Android',
+  icon: 'simple-icons:android',
+  iconColor: '#3DDC84',
+  url: 'https://www.android.com/',
+});
+
+export const twilio = createSkillFactory({
+  name: 'Twilio',
+  icon: 'simple-icons:twilio',
+  iconColor: '#F22F46',
+  url: 'https://www.twilio.com/',
+});
+
+export const webRTC = createSkillFactory({
+  name: 'WebRTC',
+  icon: 'simple-icons:webrtc',
+  iconColor: '#E6007A',
+  url: 'https://webrtc.org/',
+});
+
+export const redis = createSkillFactory({
+  name: 'Redis',
+  icon: 'simple-icons:redis',
+  iconColor: '#D82C20',
+  url: 'https://redis.io/',
+});
+
+export const rabbitmq = createSkillFactory({
+  name: 'RA',
+  icon: 'simple-icons:rabbitmq',
+  iconColor: '#F60',
+  url: 'https://www.rabbitmq.com/',
+});
+
+export const lit = createSkillFactory({
+  name: 'Lit element',
+  icon: 'simple-icons:lit',
+  iconColor: '#4D64FF',
+  url: 'https://lit.dev/',
+});
+
+export const sqlite = createSkillFactory({
+  name: 'SQLite',
+  icon: 'simple-icons:sqlite',
+  iconColor: '#003B57',
+  url: 'https://www.sqlite.org/',
 });
 
 export const reactQuery = createSkillFactory({
