@@ -26,8 +26,7 @@ const mainSectionData = {
     { label: 'GitHub', value: '/gabrieluy', url: 'https://github.com/gabrieluy' },
     { label: 'Website', value: 'gabrieluy.com', url: 'https://gabrieluy.com', fullRow: true },
   ],
-  description:
-    'Hi! Im Gabriel, a Senior Angular Developer with over 11 years of IT experience. For the past 8 years, I have thrived in agile team environments. My curiosity and passion for technology have driven me to explore various roles and technologies, ranging from backend to frontend development, with some exposure to infrastructure as code. I am dedicated to contributing positively to team dynamics by offering assistance and fostering a collaborative and enjoyable working atmosphere.',
+  description: `Hi! I'm Gabriel, a Senior Angular Developer with over 11 years of IT experience. For the past 8 years, I have thrived in agile team environments. My curiosity and passion for technology have driven me to explore various roles and technologies, ranging from backend to frontend development, with some exposure to infrastructure as code. I am dedicated to contributing positively to team dynamics by offering assistance and fostering a collaborative and enjoyable working atmosphere.`,
   tags: [{ name: 'Open for contractor' }, { name: 'Working on side project' }],
   action: {
     label: 'Download CV',

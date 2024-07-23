@@ -35,7 +35,7 @@ const experienceSectionData = {
       image: import('@/assets/logos/wefox-logo.jpg'),
       dates: [new Date('2021-07'), null],
       description: `
-        In my current position, I built a modern and responsive platform to enable Wefox brokers to provide a better experience for their customers. This role involved several challenges, including creating dynamic journeys to achieve flexibility in the product creation process and developing and integrating web components to maintain a consistent style across all company applications. Im working with angular as a main framework, and with lit for web components.
+        In my current position, I built a modern and responsive platform to enable Wefox brokers to provide a better experience for their customers. This role involved several challenges, including leading the creation of  dynamic journeys to achieve flexibility in the product creation process and integrating web components to maintain a consistent style across all company applications. I work primarily with Angular as the main framework and Lit for web components.
       `,
       tagsList: {
         title: 'Technologies',
@@ -49,7 +49,7 @@ const experienceSectionData = {
       image: import('@/assets/logos/uruit-logo.jpg'),
       dates: [new Date('2018-06'), new Date('2020-02')],
       description: `
-        At UruIT, I gained valuable experience working on projects for high-profile clients such as Telefónica and Bloomberg Tax. I utilized my expertise in React, Angular, .NET, and .NET Core to contribute effectively to these projects. Additionally, I expanded my skillset by working with cloud technologies like Kubernetes, Helm, and Terraform, further enhancing my ability to deliver robust and scalable solutions.
+        At UruIT, I gained valuable experience working on projects for high-profile clients such as Telefónica and Bloomberg Tax. I utilized my expertise in React, Angular, .NET and.NET Core to contribute effectively to these projects. Additionally, I expanded my skillset by working with cloud technologies like Kubernetes, Helm, and Terraform, further enhancing my ability to deliver robust and scalable solutions.
       `,
       tagsList: {
         title: 'Technologies',
