@@ -15,16 +15,16 @@ const mainSectionData = {
   role: 'Senior Software Engineer',
   details: [
     { label: 'Phone', value: '+34 644-776-652', url: 'tel:+34 644776652' },
-    { label: 'Email', value: 'gabrieluy@gmail.com', url: 'gabrieluy@gmail.com' },
+    { label: 'Email', value: 'gabrieluy@gmail.com', url: 'mailto:gabrieluy@gmail.com' },
     { label: 'From', value: 'Montevideo, Uruguay' },
     { label: 'Actually living in', value: 'Barcelona, Spain' },
   ],
   pdfDetails: [
-    { label: 'Phone', value: '+34 644776652' },
+    { label: 'Phone', value: '+34 644-776-652' },
     { label: 'Email', value: 'gabrieluy@gmail.com' },
-    { label: 'LinkedIn', value: '/in/gabrieluy7', url: 'https://linkedin.com' },
-    { label: 'GitHub', value: '/gabrieluy', url: 'https://github.com' },
-    { label: 'Website', value: 'gabrieluy.com', url: '/', fullRow: true },
+    { label: 'LinkedIn', value: '/in/gabrieluy7', url: 'https://www.linkedin.com/in/gabrieluy7/' },
+    { label: 'GitHub', value: '/gabrieluy', url: 'https://github.com/gabrieluy' },
+    { label: 'Website', value: 'gabrieluy.com', url: 'https://gabrieluy.com', fullRow: true },
   ],
   description:
     'Hi! Im Gabriel, a Senior Angular Developer with over 11 years of IT experience. For the past 8 years, I have thrived in agile team environments. My curiosity and passion for technology have driven me to explore various roles and technologies, ranging from backend to frontend development, with some exposure to infrastructure as code. I am dedicated to contributing positively to team dynamics by offering assistance and fostering a collaborative and enjoyable working atmosphere.',
