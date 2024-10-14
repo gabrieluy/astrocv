@@ -47,7 +47,7 @@ const experienceSectionData = {
       role: 'Fullstack developer',
       company: 'UruIT',
       image: import('@/assets/logos/uruit-logo.jpg'),
-      dates: [new Date('2018-06'), new Date('2020-02')],
+      dates: [new Date('2018-06'), new Date('2021-07')],
       description: `
         At UruIT, I gained valuable experience working on projects for high-profile clients such as Telefónica and Bloomberg Tax. I utilized my expertise in React, Angular, .NET and.NET Core to contribute effectively to these projects. Additionally, I expanded my skillset by working with cloud technologies like Kubernetes, Helm, and Terraform, further enhancing my ability to deliver robust and scalable solutions.
       `,
