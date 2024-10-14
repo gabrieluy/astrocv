@@ -1,0 +1,23 @@
+---
+import SectionCard from '@/web/components/section-card.astro';
+import ArticleTile from './article-tile.astro';
+import type { ArticlesSection } from '@/types/sections/articles-section.types';
+
+export interface Props extends ArticlesSection {}
+
+const { config, articles } = Astro.props;
+---
+
+<SectionCard {...config}>
+  <div class="flex flex-col gap-16">
+    <div class="tile grid gap-8" style={{ '--min-tile-width': `${204}px` }}>
+      {articles?.map((article) => <ArticleTile {...article} />)}
+    </div>
+  </div>
+</SectionCard>
+
+<style>
+  .tile {
+    grid-template-columns: repeat(auto-fill, minmax(var(--min-tile-width), 1fr));
+  }
+</style>

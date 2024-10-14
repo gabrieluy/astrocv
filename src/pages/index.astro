@@ -7,6 +7,7 @@ import SkillsSection from '@/web/sections/skills/skills-section.web.astro';
 import ExperienceSection from '@/web/sections/experience/experience-section.web.astro';
 import PortfolioSection from '@/web/sections/portfolio/portfolio-section.web.astro';
 import EducationSection from '@/web/sections/education/education-section.web.astro';
+import ArticlesSection from '@/web/sections/articles/articles-section.web.astro';
 import TestimonialsSection from '@/web/sections/testimonials/testimonials-section.web.astro';
 import FavoritesSection from '@/web/sections/favorites/favorites-section.web.astro';
 import cv from '@/data';
@@ -22,6 +23,7 @@ const { config, sections } = cv();
     <EducationSection {...sections.education} />
     <ExperienceSection {...sections.experience} />
     <PortfolioSection {...sections.portfolio} />
+    <ArticlesSection {...sections.articles} />
     <TestimonialsSection {...sections.testimonials} />
     <FavoritesSection {...sections.favorites} />
   </main>

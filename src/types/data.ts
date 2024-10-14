@@ -1,13 +1,14 @@
-import type { I18nConfig } from './config/i18n-config.types';
-import type { PdfConfig } from './config/pdf-config.types';
-import type { MetaConfig } from './config/meta-config.types';
-import type { EducationSection } from './sections/education-section.types';
-import type { ExperienceSection } from './sections/experience-section.types';
-import type { FavoritesSection } from './sections/favorites-section.types';
-import type { MainSection } from './sections/main-section.types';
-import type { PortfolioSection } from './sections/portfolio-section.types';
-import type { SkillsSection } from './sections/skills-section.types';
 import type { TestimonialsSection } from './sections/testimonials-section.types';
+import type { ExperienceSection } from './sections/experience-section.types';
+import type { EducationSection } from './sections/education-section.types';
+import type { FavoritesSection } from './sections/favorites-section.types';
+import type { PortfolioSection } from './sections/portfolio-section.types';
+import type { ArticlesSection } from './sections/articles-section.types';
+import type { SkillsSection } from './sections/skills-section.types';
+import type { MainSection } from './sections/main-section.types';
+import type { I18nConfig } from './config/i18n-config.types';
+import type { MetaConfig } from './config/meta-config.types';
+import type { PdfConfig } from './config/pdf-config.types';
 
 export type Config = {
   /**
@@ -56,6 +57,11 @@ export type Sections = {
    * [WEB] Recommendations from your previous employers and people you worked with.
    */
   testimonials: TestimonialsSection;
+
+  /**
+   * [WEB] List articles you wrote.
+   */
+  articles: ArticlesSection;
 
   /**
    * [WEB] List of sources you use to gain knowledge and inspiration.
