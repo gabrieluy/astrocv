@@ -14,7 +14,7 @@ const testimonialsSectionData = {
     {
       image: import('@/assets/testimonials/santiago-bermudez.jpg'),
       author: 'Santiago Bermudez',
-      relation: 'We work together at wefox',
+      relation: 'We work together at Uruit',
       content:
         'Gabriel is a very capable professional, eager to work and always ready to learn. He is an excellent person and professional which makes it very easy to work with him.',
       links: [linkedin({ url: 'https://www.linkedin.com/in/santiago-bermudez-83a89532/' })],
