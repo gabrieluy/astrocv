@@ -30,12 +30,27 @@ const experienceSectionData = {
   },
   jobs: [
     {
+      role: 'Software Engineer',
+      company: 'Appinio',
+      image: import('@/assets/logos/appinio-logo.jpg'),
+      dates: [new Date('2025-01'), null],
+      description: `
+        As a Software Engineer at Appinio, I am responsible for developing and maintaining scalable web applications that support the company's rapid growth. My work focuses on building robust front-end solutions using Angular and Nx, ensuring high code quality and performance. I collaborate closely with cross-functional teams to deliver features that enhance user experience and drive business value.
+
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [angular(), nx(), typescript()],
+      },
+      links: [website({ url: 'https://appinio.com' })],
+    },
+    {
       role: 'Senior frontend developer',
       company: 'Wefox',
       image: import('@/assets/logos/wefox-logo.jpg'),
-      dates: [new Date('2021-07'), null],
+      dates: [new Date('2021-07'), new Date('2024-09')],
       description: `
-        In my current position, I built a modern and responsive platform to enable Wefox brokers to provide a better experience for their customers. This role involved several challenges, including leading the creation of  dynamic journeys to achieve flexibility in the product creation process and integrating web components to maintain a consistent style across all company applications. I work primarily with Angular as the main framework and Lit for web components.
+        In this position, I built a modern and responsive platform that enabled Wefox brokers to provide a better experience for their customers. This role involved several challenges, including leading the creation of dynamic journeys to achieve flexibility in the product creation process and integrating web components to maintain a consistent style across all company applications. I worked primarily with Angular as the main framework and Lit for web components.
       `,
       tagsList: {
         title: 'Technologies',

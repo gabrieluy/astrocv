@@ -26,14 +26,14 @@ const portfolioSectionData = {
         { label: 'Company', value: 'Animales sin hogar' },
         { label: 'Category', value: ['Web app', 'Non-profit'] },
       ],
-      pdfDetails: [{ label: 'Demo', value: 'https://ash.uy/', url: '#' }],
+      pdfDetails: [{ label: 'Demo', value: 'https://animalessinhogar.com.uy/', url: '#' }],
       description:
         'Web Ash is a non-profit project created for an NGO that rescues abandoned animals in Uruguay. Besides providing all the information about the NGO, the website allows administrators to create adoption listings and registered users to post announcements about lost animals. It was developed using Angular and Firebase. The site is still pending full production release, so the URL is currently a preview link.',
       tagsList: {
         title: 'Technologies',
         tags: [angular(), firebase()],
       },
-      links: [demo({ url: 'https://ash.uy/' })],
+      links: [demo({ url: 'https://animalessinhogar.com.uy/' })],
     },
     {
       name: 'Flags Mastery!',

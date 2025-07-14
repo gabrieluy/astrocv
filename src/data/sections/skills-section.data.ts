@@ -29,30 +29,18 @@ const skillsSectionData = {
     {
       title: 'I already know',
       skills: [
-        angular({
-          level: 5,
-        }),
-        typescript({
-          level: 4,
-        }),
-        firebase({ level: 3 }),
-        lit({
-          level: 3,
-        }),
-        react({
-          level: 3,
-        }),
-        dotnet({
-          level: 3,
-        }),
-        nestJs({
-          level: 3,
-        }),
-        nx({ level: 2 }),
-        redis({ level: 2 }),
-        postgreSql({ level: 2 }),
-        docker({ level: 2 }),
-        terraform({ level: 1 }),
+        angular(),
+        typescript(),
+        firebase(),
+        lit(),
+        react(),
+        dotnet(),
+        nestJs(),
+        nx(),
+        redis(),
+        postgreSql(),
+        docker(),
+        terraform(),
       ],
     },
     {
